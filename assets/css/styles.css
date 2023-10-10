@@ -526,6 +526,11 @@ img {
   margin: 0 auto;
 }
 
+.choose_bg{
+  /* width: 84vw; */
+  /* width: 6000px; */
+  /* height:600px; */
+}
 /*=============== PRICING ===============*/
 .pricing__container {
   grid-template-columns: 285px;
@@ -631,7 +636,7 @@ img {
 } */
 
 /*=============== CALCULATE ===============*/
-/* .calculate {
+.calculate {
   padding-bottom: 0;
 }
 
@@ -696,7 +701,7 @@ img {
 .calculate__message {
   position: absolute;
   transform: translateY(1rem);
-} */
+}
 
 /*=============== FOOTER ===============*/
 .footer__container {
@@ -1034,12 +1039,26 @@ img {
     padding-top: 3rem;
   }
   .home__images {
+    width: 644px;
     transform: translateX(-9rem);
   }
   .home__img {
-    width: 700px;
+    width: 400px;
     transform: translateX(2rem);
   }
+  .home_fit{
+    /* transform: translateX(13rem); */
+    /* margin-left: 3vw;
+    height: 37w; */
+    /* width: 48vw; */
+  }
+
+  /* .home__images img{
+
+    margin-left:50px;
+
+  } */
+  
   .home__triangle {
     height: 995px;
   }
