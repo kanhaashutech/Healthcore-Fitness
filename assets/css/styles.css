@@ -378,7 +378,7 @@ img {
 /*=============== PROGRAM ===============*/
 .program__container { 
   display: flex;
-/*   grid-template-columns: 225px; */
+  grid-template-columns: 225px;
   justify-content: space-evenly;
   row-gap: 5rem;
   /* align-items: center; */
