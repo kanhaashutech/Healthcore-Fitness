@@ -573,6 +573,7 @@ img {
   justify-content: center;
   /* align-items: center; */
   row-gap: 2rem;
+  
 }
 
 .plan__price{
@@ -601,6 +602,7 @@ img {
 .pricing__shape,
 .pricing__list {
   display: grid;
+  
 }
 
 .pricing__card {
