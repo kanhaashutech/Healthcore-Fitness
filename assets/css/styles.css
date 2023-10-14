@@ -577,9 +577,26 @@ img {
 
 .plan__price{
   display: flex;
+  gap: 8rem;
 
 }
 
+.plan__details{
+  margin-top: 3rem;
+}
+
+.plan__details h4{
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width:750px){
+    .plan__price{
+      display: flex;
+      flex-direction: column;
+    }
+  
+}
 .pricing__card,
 .pricing__shape,
 .pricing__list {
@@ -688,6 +705,7 @@ img {
 .pricing__card-active .pricing__number {
   color: white;
 }
+
 
 /* .pricing__card-active:hover{
   background: linear-gradient(#4f0000,#b70000);
