@@ -381,15 +381,17 @@ img {
   justify-content: space-evenly;
   row-gap: 5rem;
   /* align-items: center; */
-display: flex;
-/* flex-direction: column; */
+  display: flex;
+  /* flex-direction: column; */
 }
 
 
 @media screen and (min-width:237px) and (max-width:450px) {
-  .program__container{
+  .program__container {
     flex-direction: column;
   }
+
+}
   
 }
 .program__card {
