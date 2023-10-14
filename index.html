@@ -187,7 +187,7 @@
 
         <!--==================== PRICING ====================-->
         <section class="pricing section" id="pricing">
-            <div class="container">
+            <div class="container ">
                 <div class="section__data">
                     <h2 class="section__subtitle">Pricing</h2>
                     <div class="section__titles">
@@ -200,8 +200,10 @@
                     </div>
                 </div>
 
-                <div class="pricing__container grid">
-                    <!-- <article class="pricing__card">
+                <div class="plan__price">
+
+                    <div class="pricing__container grid">
+                        <!-- <article class="pricing__card">
                             <header class="pricing__header">
                                 <div class="pricing__shape">
                                     <img src="assets/img/pricing1.png" alt="pricing image" class="pricing__img">
@@ -234,49 +236,49 @@
                             </a>
                         </article> -->
 
-                    <article class="pricing__card pricing__card-active">
-                        <header class="pricing__header">
-                            <div class="pricing__shape">
-                                <img src="assets/img/pricing2.png" alt="pricing image" class="pricing__img">
-                            </div>
-                            <h1 class="pricing__title">ULTIMATE PACKAGE</h1>
-                            <h1 class="  pricing__days">6 Weeks</h1>
+                        <article class="pricing__card pricing__card-active">
+                            <header class="pricing__header">
+                                <div class="pricing__shape">
+                                    <img src="assets/img/pricing2.png" alt="pricing image" class="pricing__img">
+                                </div>
+                                <h1 class="pricing__title">ULTIMATE PACKAGE</h1>
+                                <h1 class="  pricing__days">6 Weeks</h1>
 
-                            <h1 class=" pricing__discount">$ 100 Discount 61% off !!</h1>
-                            <h2 class="pricing__number"> $ 39</h2>
-                        </header>
+                                <h1 class=" pricing__discount">$ 100 Discount 61% off !!</h1>
+                                <h2 class="pricing__number"> $ 39</h2>
+                            </header>
 
-                        <ul class="pricing__list">
-                            <li class="pricing__item">
-                                <i class="ri-checkbox-circle-line"></i> Tailored Workouts
-                            </li>
-                            <li class="pricing__item">
-                                <i class="ri-checkbox-circle-line"></i> Customized diet plan
-                            </li>
-                            <li class="pricing__item">
-                                <i class="ri-checkbox-circle-line"></i> Access to workout videos
-                            </li>
-                            <li class="pricing__item ">
-                                <i class="ri-checkbox-circle-line"></i> Daily accountability
-                            </li>
-                            <li class="pricing__item ">
-                                <i class="ri-checkbox-circle-line"></i> 1-1 Weekly progress tracking
-                            </li>
-                            <!-- 
+                            <ul class="pricing__list">
+                                <li class="pricing__item">
+                                    <i class="ri-checkbox-circle-line"></i> Tailored Workouts
+                                </li>
+                                <li class="pricing__item">
+                                    <i class="ri-checkbox-circle-line"></i> Customized diet plan
+                                </li>
+                                <li class="pricing__item">
+                                    <i class="ri-checkbox-circle-line"></i> Access to workout videos
+                                </li>
+                                <li class="pricing__item ">
+                                    <i class="ri-checkbox-circle-line"></i> Daily accountability
+                                </li>
+                                <li class="pricing__item ">
+                                    <i class="ri-checkbox-circle-line"></i> 1-1 Weekly progress tracking
+                                </li>
+                                <!-- 
                                 <li class="pricing__item pricing__item-opacity">
                                     <i class="ri-checkbox-circle-line"></i>  Daily accountability
                                 </li>
                                 <li class="pricing__item pricing__item-opacity">
                                     <i class="ri-checkbox-circle-line"></i> 1-1 Weekly progress tracking
                                 </li> -->
-                        </ul>
+                            </ul>
 
-                        <a href="#footer" class="button button__flex pricing__button">
-                            Purchase Now <i class="ri-arrow-right-line"></i>
-                        </a>
-                    </article>
+                            <a href="#footer" class="button button__flex pricing__button">
+                                Purchase Now <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </article>
 
-                    <!-- <article class="pricing__card">
+                        <!-- <article class="pricing__card">
                             <header class="pricing__header">
                                 <div class="pricing__shape">
                                     <img src="assets/img/pricing3.png" alt="pricing image" class="pricing__img">
@@ -308,6 +310,39 @@
                                 Purchase Now <i class="ri-arrow-right-line"></i>
                             </a>
                         </article> -->
+                    </div>
+
+                    <div class="plan__details">
+                        <h1>PLAN DETAILS</h1><br>
+
+                        <h4>Individually Crafted Workouts:</h4>
+                        <p>Our Individually Crafted Workouts are designed with one person in mind—you. We understand
+                            that your fitness goals, starting point, preferences, and even your limitations are unlike
+                            anyone else's. That's why we take the time to get to know you, your aspirations, and your
+                            body's unique needs.</p>
+
+                        <h4>Personalized Nutrition Plans:</h4>
+                        <p> Our Personalized Nutrition Plans are designed to do more than just nourish your body; they
+                            are tailored to empower you to make informed dietary choices that can transform your health
+                            and wellness.</p>
+
+                        <h4>Access to Workout Videos: </h4>
+                        <p>Our Access to Workout Videos provides you with a diverse and extensive library of
+                            professionally curated exercise routines, catering to all fitness levels, goals, and
+                            preferences.</p>
+
+                        <h4>Daily Accountability:</h4>
+                        <p>Our Daily Accountability feature is your secret weapon for staying on track with your health
+                            and fitness goals. It's like having a personal coach by your side every day, motivating you
+                            to make healthy choices and build lasting habits. With Daily Accountability, you'll find the
+                            consistency you need to achieve your best self, one day at a time.</p>
+
+                        <h4>Weekly 1-1 Progress Monitoring:</h4>
+                        <p>Experience the power of personalized support with our Weekly 1-1 Progress Monitoring. We're
+                            here to guide you, celebrate your wins, and make adjustments to ensure your fitness journey
+                            stays on the right track.</p>
+
+                    </div>
                 </div>
             </div>
         </section>
@@ -529,7 +564,8 @@
 
 
 
-                    <form action="" class="footer__form" id="contact-form" name="submit-to-google-sheet" onsubmit="sendEmail(); reset(); return false;">
+                    <form action="" class="footer__form" id="contact-form" name="submit-to-google-sheet"
+                        onsubmit="sendEmail(); reset(); return false;">
                         <input type="text" name="user_name" placeholder="Your Name" class="footer__input"
                             id="contact-user " required>
                         <!-- <input type="email" name="user_mobile_no" placeholder="Email" class="footer__input"
@@ -539,7 +575,7 @@
 
                         <button type="submit" class="button">
                             Submit
-                        </button> 
+                        </button>
 
                         <span id="success"></span>
                     </form>
