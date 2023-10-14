@@ -1,288 +1,207 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-        <!--=============== FAVICON ===============-->
-        <link rel="shortcut icon" href="assets/img/logo-nav.png" type="image/x-icon">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!--=============== REMIXICON ===============-->
-        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/logo-nav.png" type="image/x-icon">
 
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!--=============== REMIXICON ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
-        <title>The GYM Fitness Center - Website</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="#" class="nav__logo">
-                     HEALTHCORE FITNESS
-                </a>
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link active-link">Home</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#program" class="nav__link">Program</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#choose" class="nav__link">Choose Us</a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#pricing" class="nav__link">Pricing</a>
-                        </li>
+    <title>The GYM Fitness Center - Website</title>
+</head>
 
-                        <div class="nav__link">
-                            <a href="#footer" class="button nav__button">Contact Us</a>
-                        </div>
-                    </ul>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                HEALTHCORE FITNESS
+            </a>
 
-                    <div class="nav__close" id="nav-close">
-                        <i class="ri-close-line"></i>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#program" class="nav__link">Program</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#pricing" class="nav__link">Pricing</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#choose" class="nav__link">Choose Us</a>
+                    </li>
+
+
+                    <div class="nav__link">
+                        <a href="#footer" class="button nav__button">Contact Us</a>
+                    </div>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h2 class="home__subtitle">ENHANCE YOUR</h2>
+                    <h1 class="home__title">FITNESS LIFE
+                    </h1>
+                    <p class="home__description">
+                        Ultimate Destination To Maximize Your Fitness Capability And Inner Strength
+
+                    </p>
+                    <a href="#program" class="button button__flex">
+                        Get Started <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+
+                <div class="home__images">
+                    <img src="assets/img/home_bg.png" alt="home image" class="home__img home_fit">
+
+                    <div class="home__triangle home__triangle-3"></div>
+                    <div class="home__triangle home__triangle-2"></div>
+                    <div class="home__triangle home__triangle-1"></div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== LOGOS ====================-->
+        <!-- <section class="logos section">
+            <div class="logos__container container grid">
+                <img src="assets/img/logo1.png" alt="logo image" class="logos__img">
+                <img src="assets/img/logo2.png" alt="logo image" class="logos__img">
+                <img src="assets/img/logo3.png" alt="logo image" class="logos__img">
+                <img src="assets/img/logo4.png" alt="logo image" class="logos__img">
+            </div>
+        </section> -->
+
+        <!--==================== PROGRAM ====================-->
+        <section class="program section" id="program">
+            <div class="container">
+                <div class="section__data">
+                    <h2 class="section__subtitle">Our Program's</h2>
+                    <div class="section__titles">
+                        <!-- <h1 class="section__title-border">BUILD YOUR</h1>
+                        <h1 class="section__title">BEST BODY</h1> -->
                     </div>
                 </div>
 
-                <!-- Toggle button -->
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-line"></i>
-                </div>
-            </nav>
-        </header>
+                <div class="program__container grid">
+                    <article class="program__card">
+                        <div class="program__shape">
+                            <img src="assets/img/program1.png" alt="program image" class="program__img">
+                        </div>
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                <div class="home__container container grid">
-                    <div class="home__data">
-                        <h2 class="home__subtitle">ENHANCE YOUR</h2>
-                        <h1 class="home__title">FITNESS LIFE
-                        </h1>
-                        <p class="home__description">
-                            Ultimate Destination To Maximize Your Fitness Capability And Inner Strength
+                        <h3 class="program__title">Weight Loss</h3>
 
+                        <p class="program__description">
+                            1. Loose 5-8 kgs in 6 Weeks. <br>
+                            2. Get workout videos. <br>
+                            3. Get nutrition knowledge. <br>
+                            4. Daily accountability.
                         </p>
-                        <a href="#program" class="button button__flex">
-                            Get Started <i class="ri-arrow-right-line"></i>
+
+                        <a href="#pricing" class="program__button">
+                            <i class="ri-arrow-right-line"></i>
                         </a>
-                    </div>
+                    </article>
+                    <!-- 
+                    <article class="program__card">
+                        <div class="program__shape">
+                            <img src="assets/img/program2.png" alt="program image" class="program__img">
+                        </div>
 
-                    <div class="home__images">
-                        <img src="assets/img/home_bg.png" alt="home image" class="home__img home_fit" >
+                        <h3 class="program__title">Cardio Exercise</h3>
 
-                        <div class="home__triangle home__triangle-3"></div>
-                        <div class="home__triangle home__triangle-2"></div>
-                        <div class="home__triangle home__triangle-1"></div>
+                        <p class="program__description">
+                            Exercise your heart rate up and keeps it
+                            up for a prolonged period of time.
+                        </p>
+
+                        <a href="#" class="program__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
+
+                    <article class="program__card">
+                        <div class="program__shape">
+                            <img src="assets/img/program3.png" alt="program image" class="program__img">
+                        </div>
+
+                        <h3 class="program__title">Basic Yoga</h3>
+
+                        <p class="program__description">
+                            Diaphragmatic this is the most common breathing
+                            technique you'll find in yoga.
+                        </p>
+
+                        <a href="#" class="program__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article> -->
+
+                    <article class="program__card">
+                        <div class="program__shape">
+                            <img src="assets/img/program4.png" alt="program image" class="program__img">
+                        </div>
+
+                        <h3 class="program__title">Weight Gain</h3>
+
+                        <p class="program__description">
+                            1. Gain 5-8 kgs in 6 Weeks. <br>
+                            2. Get workout videos. <br>
+                            3. Get nutrition knowledge. <br>
+                            4. Daily accountability.
+                        </p>
+
+                        <a href="#pricing" class="program__button">
+                            <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <!--==================== PRICING ====================-->
+        <section class="pricing section" id="pricing">
+            <div class="container">
+                <div class="section__data">
+                    <h2 class="section__subtitle">Pricing</h2>
+                    <div class="section__titles">
+                        <!-- <h1 class="section__title-border">OUR</h1>
+                            <h1 class="section__title">SPECIAL PLAN</h1> -->
+
+
+                        <!-- <h1 class="section__title-border">Pricing</h1> -->
+                        <!-- <h1 class="section__title">PRICING</h1> -->
                     </div>
                 </div>
-            </section>
 
-            <!--==================== LOGOS ====================-->
-            <section class="logos section">
-                <div class="logos__container container grid">
-                    <img src="assets/img/logo1.png" alt="logo image" class="logos__img">
-                    <img src="assets/img/logo2.png" alt="logo image" class="logos__img">
-                    <img src="assets/img/logo3.png" alt="logo image" class="logos__img">
-                    <img src="assets/img/logo4.png" alt="logo image" class="logos__img">
-                </div>
-            </section>
-
-            <!--==================== PROGRAM ====================-->
-            <section class="program section" id="program">
-                <div class="container">
-                    <div class="section__data">
-                        <h2 class="section__subtitle">Our Program</h2>
-                        <div class="section__titles">
-                            <h1 class="section__title-border">BUILD YOUR</h1>
-                            <h1 class="section__title">BEST BODY</h1>
-                        </div>
-                    </div>
-
-                    <div class="program__container grid">
-                        <article class="program__card">
-                            <div class="program__shape">
-                                <img src="assets/img/program1.png" alt="program image" class="program__img">
-                            </div>
-
-                            <h3 class="program__title">Flex Muscle</h3>
-
-                            <p class="program__description">
-                                Creating tension that's temporarily making the muscle 
-                                fibers smaller or contracted.
-                            </p>
-
-                            <a href="#" class="program__button">
-                                <i class="ri-arrow-right-line"></i>
-                            </a>
-                        </article>
-
-                        <article class="program__card">
-                            <div class="program__shape">
-                                <img src="assets/img/program2.png" alt="program image" class="program__img">
-                            </div>
-
-                            <h3 class="program__title">Cardio Exercise</h3>
-
-                            <p class="program__description">
-                                Exercise your heart rate up and keeps it 
-                                up for a prolonged period of time.
-                            </p>
-
-                            <a href="#" class="program__button">
-                                <i class="ri-arrow-right-line"></i>
-                            </a>
-                        </article>
-
-                        <article class="program__card">
-                            <div class="program__shape">
-                                <img src="assets/img/program3.png" alt="program image" class="program__img">
-                            </div>
-
-                            <h3 class="program__title">Basic Yoga</h3>
-
-                            <p class="program__description">
-                                Diaphragmatic this is the most common breathing 
-                                technique you'll find in yoga.
-                            </p> 
-
-                            <a href="#" class="program__button">
-                                <i class="ri-arrow-right-line"></i>
-                            </a>
-                        </article>
-
-                        <article class="program__card">
-                            <div class="program__shape">
-                                <img src="assets/img/program4.png" alt="program image" class="program__img">
-                            </div>
-
-                            <h3 class="program__title">Weight Lifting</h3>
-
-                            <p class="program__description">
-                                Attempts a maximum weight single lift of a 
-                                barbell loaded with weight plates.
-                            </p>
-
-                            <a href="#" class="program__button">
-                                <i class="ri-arrow-right-line"></i>
-                            </a>
-                        </article>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== CHOOSE US ====================-->
-            <section class="choose section" id="choose">
-                <div class="choose__overflow">
-                    <div class="choose__container container grid">
-                        <div class="choose__content">
-                            <div class="section__data">
-                                <h2 class="section__subtitle">Best Reason</h2>
-                                <div class="section__titles">
-                                    <h1 class="section__title-border">WHY</h1>
-                                    <h1 class="section__title">CHOOSE US ?</h1>
-                                </div>
-                            </div>
-    
-                            <p class="choose__description">
-                                Personalized Fitness:  We understand that your fitness journey is unique. That's why we offer personalized workout plans, tailored nutrition guidance, and individualized support to help you achieve your specific goals. <br> 
-Convenience: A ccess HealthCore from the comfort of your home, office, or wherever life takes you. Our user-friendly platform is accessible on any device, making it easy to stay committed to your fitness goals.<br>
-
-Comprehensive Resources: We offer a wealth of resources to ensure your success. From a library of workout routines and nutritional guidance to articles and videos on health and wellness, you'll have access to everything you need to stay informed and motivated. <br> 
-<br>
-Results-Driven: We are committed to helping you achieve real, sustainable results. Whether your goal is to lose weight, gain muscle, improve flexibility, or boost overall health, we provide the support to make it happen.<br>
-
-Your Success Is Our Success: At HealthCore, your success is our primary goal. We measure our success by the progress and achievements of our members. Your health and fitness journey matters to us, and we're here to celebrate every milestone with you.
-
-                            </p>
-    
-                            <!-- <div class="choose__data">
-                                <div class="choose__group">
-                                    <h3 class="choose__number">200+</h3>
-                                    <p class="choose__subtitle">Total Members</p>
-                                </div>
-                                <div class="choose__group">
-                                    <h3 class="choose__number">50+</h3>
-                                    <p class="choose__subtitle">Best trainers</p>
-                                </div>
-                                <div class="choose__group">
-                                    <h3 class="choose__number">25+</h3>
-                                    <p class="choose__subtitle">Programs</p>
-                                </div>
-                                <div class="choose__group">
-                                    <h3 class="choose__number">100+</h3>
-                                    <p class="choose__subtitle">Awards</p>
-                                </div>
-                            </div> -->
-                        </div>
-    
-                        <div class="choose__images">
-                            <img src="assets/img/choose_bg.png" alt="choose image" class="choose__img choose_bg">
-    
-                            <div class="choose__triangle choose__triangle-1"></div>
-                            <div class="choose__triangle choose__triangle-2"></div>
-                            <div class="choose__triangle choose__triangle-3"></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-            <!--===========ABOUT US STARTS =================== -->
-            <section class="choose section" id="choose1">
-                <div class="choose__overflow">
-                    <div class="choose__container container grid">
-                        <div class="choose__content">
-                            <div class="section__data">
-                                <h2 class="section__subtitle">About Us</h2>
-                                <div class="section__titles">
-                                    <h1 class="section__title-border">WE</h1>
-                                    <h1 class="section__title">ARE BEST</h1>
-                                </div>
-                            </div>
-    
-                            <p class="choose__description">
-                                Welcome to HealthCore Fitness, your ultimate destination for fitness excellence. We are more than just an online fitness platform; we are a community of dedicated individuals. <br>
-Our goal is to empower you with the knowledge and support needed to make lasting improvements to your health and fitness. Our vision at HealthCore Fitness is to create a world where everyone has the opportunity to lead a healthy, active lifestyle. We believe that fitness is not a one-size-fits-all endeavor, and our platform is designed to cater to individuals of all fitness levels, backgrounds, and goals. Whether you're looking to shed a few pounds, build muscle, boost your endurance, or simply improve your overall health, HealthCore Fitness is here to guide you every step of the way.
-                            </p>
-    
-                            <div class="choose__data">
-
-                            
-                            </div>
-                        </div>
-    
-                        <div class="choose__images">
-                            <img src="assets/img/muscleboy.png" alt="choose image" class="choose__img">
-    
-                            <div class="choose__triangle choose__triangle-1"></div>
-                            <div class="choose__triangle choose__triangle-2"></div>
-                            <div class="choose__triangle choose__triangle-3"></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-            <!--===========ABOUT US  ENDS =================== -->
-
-            <!--==================== PRICING ====================-->
-            <section class="pricing section" id="pricing">
-                <div class="container">
-                    <div class="section__data">
-                        <h2 class="section__subtitle">Pricing</h2>
-                        <div class="section__titles">
-                            <h1 class="section__title-border">OUR</h1>
-                            <h1 class="section__title">SPECIAL PLAN</h1>
-                        </div>
-                    </div>
-                    
-                    <div class="pricing__container grid">
-                        <!-- <article class="pricing__card">
+                <div class="pricing__container grid">
+                    <!-- <article class="pricing__card">
                             <header class="pricing__header">
                                 <div class="pricing__shape">
                                     <img src="assets/img/pricing1.png" alt="pricing image" class="pricing__img">
@@ -315,47 +234,49 @@ Our goal is to empower you with the knowledge and support needed to make lasting
                             </a>
                         </article> -->
 
-                        <article class="pricing__card pricing__card-active">
-                            <header class="pricing__header">
-                                <div class="pricing__shape">
-                                    <img src="assets/img/pricing2.png" alt="pricing image" class="pricing__img">
-                                </div>
-                                <h1 class="pricing__title">ULTIMATE PACKAGE</h1>
-                                <h1 class="pricing__title">41  Days</h1>
-                                <h2 class="pricing__number">  $ 39</h2>
-                            </header>
+                    <article class="pricing__card pricing__card-active">
+                        <header class="pricing__header">
+                            <div class="pricing__shape">
+                                <img src="assets/img/pricing2.png" alt="pricing image" class="pricing__img">
+                            </div>
+                            <h1 class="pricing__title">ULTIMATE PACKAGE</h1>
+                            <h1 class="  pricing__days">6 Weeks</h1>
 
-                            <ul class="pricing__list">
-                                <li class="pricing__item">
-                                    <i class="ri-checkbox-circle-line"></i> Tailored Workouts
-                                </li>
-                                <li class="pricing__item">
-                                    <i class="ri-checkbox-circle-line"></i> Customized diet plan
-                                </li>
-                                <li class="pricing__item">
-                                    <i class="ri-checkbox-circle-line"></i> Access to videos
-                                </li>
-                                <li class="pricing__item ">
-                                    <i class="ri-checkbox-circle-line"></i>  Daily accountability
-                                </li>
-                                <li class="pricing__item ">
-                                    <i class="ri-checkbox-circle-line"></i> 1-1 Weekly progress tracking
-                                </li>
-<!-- 
+                            <h1 class=" pricing__discount">$ 100 Discount - 61% off !!</h1>
+                            <h2 class="pricing__number"> $ 39</h2>
+                        </header>
+
+                        <ul class="pricing__list">
+                            <li class="pricing__item">
+                                <i class="ri-checkbox-circle-line"></i> Tailored Workouts
+                            </li>
+                            <li class="pricing__item">
+                                <i class="ri-checkbox-circle-line"></i> Customized diet plan
+                            </li>
+                            <li class="pricing__item">
+                                <i class="ri-checkbox-circle-line"></i> Access to workout videos
+                            </li>
+                            <li class="pricing__item ">
+                                <i class="ri-checkbox-circle-line"></i> Daily accountability
+                            </li>
+                            <li class="pricing__item ">
+                                <i class="ri-checkbox-circle-line"></i> 1-1 Weekly progress tracking
+                            </li>
+                            <!-- 
                                 <li class="pricing__item pricing__item-opacity">
                                     <i class="ri-checkbox-circle-line"></i>  Daily accountability
                                 </li>
                                 <li class="pricing__item pricing__item-opacity">
                                     <i class="ri-checkbox-circle-line"></i> 1-1 Weekly progress tracking
                                 </li> -->
-                            </ul>
+                        </ul>
 
-                            <a href="#" class="button button__flex pricing__button">
-                                Purchase Now <i class="ri-arrow-right-line"></i>
-                            </a>
-                        </article>
+                        <a href="#footer" class="button button__flex pricing__button">
+                            Purchase Now <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </article>
 
-                        <!-- <article class="pricing__card">
+                    <!-- <article class="pricing__card">
                             <header class="pricing__header">
                                 <div class="pricing__shape">
                                     <img src="assets/img/pricing3.png" alt="pricing image" class="pricing__img">
@@ -387,12 +308,168 @@ Our goal is to empower you with the knowledge and support needed to make lasting
                                 Purchase Now <i class="ri-arrow-right-line"></i>
                             </a>
                         </article> -->
+                </div>
+            </div>
+        </section>
+
+        <!--==================== CHOOSE US ====================-->
+        <section class="choose section" id="choose">
+            <div class="choose__overflow">
+                <div class="choose__container container grid">
+                    <div class="choose__content">
+                        <div class="section__data">
+                            <h2 class="section__subtitle">Best Reason</h2>
+                            <div class="section__titles">
+                                <!-- <h1 class="section__title-border">WHY</h1> -->
+                                <h1 class="section__title">WHY CHOOSE US ?</h1>
+                            </div>
+                        </div>
+
+                        <p class="choose__description">
+                            Personalized Fitness: We understand that your fitness journey is unique. That's why we offer
+                            personalized workout plans, tailored nutrition guidance, and individualized support to help
+                            you achieve your specific goals. <br>
+                            Convenience: A ccess HealthCore from the comfort of your home, office, or wherever life
+                            takes you. Our user-friendly platform is accessible on any device, making it easy to stay
+                            committed to your fitness goals.<br>
+
+                            Comprehensive Resources: We offer a wealth of resources to ensure your success. From a
+                            library of workout routines and nutritional guidance to articles and videos on health and
+                            wellness, you'll have access to everything you need to stay informed and motivated. <br>
+                            <br>
+                            Results-Driven: We are committed to helping you achieve real, sustainable results. Whether
+                            your goal is to lose weight, gain muscle, improve flexibility, or boost overall health, we
+                            provide the support to make it happen.<br>
+
+                            Your Success Is Our Success: At HealthCore, your success is our primary goal. We measure our
+                            success by the progress and achievements of our members. Your health and fitness journey
+                            matters to us, and we're here to celebrate every milestone with you.
+
+                        </p>
+
+                        <!-- <div class="choose__data">
+                                <div class="choose__group">
+                                    <h3 class="choose__number">200+</h3>
+                                    <p class="choose__subtitle">Total Members</p>
+                                </div>
+                                <div class="choose__group">
+                                    <h3 class="choose__number">50+</h3>
+                                    <p class="choose__subtitle">Best trainers</p>
+                                </div>
+                                <div class="choose__group">
+                                    <h3 class="choose__number">25+</h3>
+                                    <p class="choose__subtitle">Programs</p>
+                                </div>
+                                <div class="choose__group">
+                                    <h3 class="choose__number">100+</h3>
+                                    <p class="choose__subtitle">Awards</p>
+                                </div>
+                            </div> -->
+                    </div>
+
+                    <div class="choose__images">
+                        <img src="assets/img/choose_bg.png" alt="choose image" class="choose__img choose_bg">
+
+                        <div class="choose__triangle choose__triangle-1"></div>
+                        <div class="choose__triangle choose__triangle-2"></div>
+                        <div class="choose__triangle choose__triangle-3"></div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <!--==================== CALCULATE ====================-->
-            <!-- <section class="calculate section">
+
+        <!--===========ABOUT US STARTS =================== -->
+        <!-- <section class="choose section" id="choose1">
+            <div class="choose__overflow choose__about">
+                <div class="choose__container container grid">
+                    <div class="choose__content">
+                        <div class="section__data">
+                            <h2 class="section__subtitle">About Us</h2>
+                            <div class="section__titles">
+                                <h1 class="section__title-border">WE</h1>
+                                <h1 class="section__title">WE ARE BEST</h1>
+                            </div>
+                        </div>
+
+                        <p class="choose__description">
+                            Welcome to HealthCore Fitness, your ultimate destination for fitness excellence. We are more
+                            than just an online fitness platform; we are a community of dedicated individuals. <br>
+                            Our goal is to empower you with the knowledge and support needed to make lasting
+                            improvements to your health and fitness. Our vision at HealthCore Fitness is to create a
+                            world where everyone has the opportunity to lead a healthy, active lifestyle. We believe
+                            that fitness is not a one-size-fits-all endeavor, and our platform is designed to cater to
+                            individuals of all fitness levels, backgrounds, and goals. Whether you're looking to shed a
+                            few pounds, build muscle, boost your endurance, or simply improve your overall health,
+                            HealthCore Fitness is here to guide you every step of the way.
+                        </p>
+
+                        <div class="choose__data">
+
+
+                        </div>
+                    </div>
+
+                    <div class="choose__images">
+                        <img src="assets/img/muscleboy.png" alt="choose image" class="choose__img">
+
+                        <div class="choose__triangle choose__triangle-1"></div>
+                        <div class="choose__triangle choose__triangle-2"></div>
+                        <div class="choose__triangle choose__triangle-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+        <!-- ======================================= Ab ou t Se c ti on   de s i gn ================================= -->
+
+        <section class="about section" id="choose1">
+            <div class="about__overflow choose__about">
+                <div class="about__container container grid">
+                    <div class="about__content">
+                        <div class="section__data">
+                            <h2 class="section__subtitle">About Us</h2>
+                            <div class="section__titles">
+                                <!-- <h1 class="section__title-border">WE</h1> -->
+                                <h1 class="section__title">WE ARE BEST</h1>
+                            </div>
+                        </div>
+
+                        <p class="about__description">
+                            Welcome to HealthCore Fitness, your ultimate destination for fitness excellence. We are more
+                            than just an online fitness platform; we are a community of dedicated individuals. <br>
+                            Our goal is to empower you with the knowledge and support needed to make lasting
+                            improvements to your health and fitness. Our vision at HealthCore Fitness is to create a
+                            world where everyone has the opportunity to lead a healthy, active lifestyle. We believe
+                            that fitness is not a one-size-fits-all endeavor, and our platform is designed to cater to
+                            individuals of all fitness levels, backgrounds, and goals. Whether you're looking to shed a
+                            few pounds, build muscle, boost your endurance, or simply improve your overall health,
+                            HealthCore Fitness is here to guide you every step of the way.
+                        </p>
+
+                        <!-- <div class="choose__data">
+
+
+                        </div> -->
+                    </div>
+
+                    <!-- <div class="choose__images">
+                        <img src="assets/img/muscleboy.png" alt="choose image" class="choose__img">
+
+                        <div class="choose__triangle choose__triangle-1"></div>
+                        <div class="choose__triangle choose__triangle-2"></div>
+                        <div class="choose__triangle choose__triangle-3"></div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <!--===========ABOUT US  ENDS =================== -->
+
+
+
+        <!--==================== CALCULATE ====================-->
+        <!-- <section class="calculate section">
                 <div class="calculate__container container grid">
                     <div class="calculate__content">
                         <div class="section__titles">
@@ -432,7 +509,7 @@ Our goal is to empower you with the knowledge and support needed to make lasting
             <div class="footer__container container grid">
                 <div>
                     <a href="#" class="footer__logo">
-                          HEALTHCORE FITNESS
+                        HEALTHCORE FITNESS
                     </a>
                     <!-- <a href="#" class="footer__logo">
                         <img src="assets/img/logo-nav.png" alt="logo">  HEALTHCORE FITNESS
@@ -444,15 +521,58 @@ Our goal is to empower you with the knowledge and support needed to make lasting
                         We will get back to you soon..<br> Fill Information
                     </p>
 
-                    <form action="" class="footer__form" id="contact-form">
-                        <input type="text" name="user_name" placeholder="Your Name" class="footer__input" id="contact-user">
-                         <input type="mobile_no" name="user_mobile_no" placeholder="Mobile No." class="footer__input" id="contact-user">
-                        <!-- <input type="email" name="user_email" placeholder="Email" class="footer__input" id="contact-user"> -->
-                       
+
+
+
+
+
+
+
+
+                    <form action="" class="footer__form" id="contact-form" name="submit-to-google-sheet" onsubmit="sendEmail(); reset(); return false;">
+                        <input type="text" name="user_name" placeholder="Your Name" class="footer__input"
+                            id="contact-user " required>
+                        <!-- <input type="email" name="user_mobile_no" placeholder="Email" class="footer__input"
+                            id="contact-user"> -->
+                        <input type="email" name="user_email" placeholder="Email" class="footer__input"
+                            id="contact-user" required>
+
                         <button type="submit" class="button">
                             Submit
-                        </button>
+                        </button> 
+
+                        <span id="success"></span>
                     </form>
+
+
+
+                    <script>
+                        const scriptURL = 'https://script.google.com/macros/s/AKfycbx9Mm7VOchOb4gAe4ZPA4APM8edPPTswCsxR5S8AoJr4onqmgaWhz3eQgMCacr39ZvHcw/exec'
+                        const form = document.forms['submit-to-google-sheet']
+                        const success = document.getElementById('success');
+
+                        form.addEventListener('submit', e => {
+                            e.preventDefault()
+                            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                                .then(response => {
+                                    success.innerHTML = "Data Successfully Submitted";
+
+                                    setTimeout(function () {
+                                        success.innerHTML = " ";
+                                    }, 2000)
+                                    form.reset();
+                                })
+                                .catch(error => console.error('Error!', error.message))
+                        })
+                    </script>
+
+
+
+
+
+
+
+                    <!--  -->
 
                     <p class="footer__message" id="contact-message"></p>
                 </div>
@@ -465,16 +585,16 @@ Our goal is to empower you with the knowledge and support needed to make lasting
 
                         <ul class="footer__links">
                             <li>
-                                <a href="#program" class="footer__link">Flex Muscle</a>
+                                <a href="#program" class="footer__link">Weight Loss</a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="#program" class="footer__link">Cardio Exercise</a>
                             </li>
                             <li>
                                 <a href="#program" class="footer__link">Basic Yoga</a>
-                            </li>
+                            </li> -->
                             <li>
-                                <a href="#program" class="footer__link">Weight Lifting</a>
+                                <a href="#program" class="footer__link">Weight Gain</a>
                             </li>
                         </ul>
                     </div>
@@ -485,18 +605,18 @@ Our goal is to empower you with the knowledge and support needed to make lasting
                         </h3>
 
                         <ul class="footer__links">
-                            <li>
+                            <!-- <li>
                                 <a href="#pricing" class="footer__link">Basic</a>
-                            </li>
+                            </li> -->
                             <li>
-                                <a href="#pricing" class="footer__link">Premium</a>
+                                <a href="#pricing" class="footer__link">Ultimate</a>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <a href="#pricing" class="footer__link">Diamond</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
-                    
+
                     <div>
                         <h3 class="footer__title">
                             COMPANY
@@ -509,12 +629,12 @@ Our goal is to empower you with the knowledge and support needed to make lasting
                             <!-- <li>
                                 <a href="#" class="footer__link">Careers</a>
                             </li> -->
-                            <li>
+                            <!-- <li>
                                 <a href="#" class="footer__link">Customers</a>
                             </li>
                             <li>
                                 <a href="#home" class="footer__link">Partners</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
@@ -523,19 +643,21 @@ Our goal is to empower you with the knowledge and support needed to make lasting
             <div class="container">
                 <div class="footer__group">
                     <ul class="footer__social">
-                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <!-- <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
                             <i class="ri-facebook-circle-fill"></i>
+                        </a> -->
+                        <a href="https://youtube.com/" target="_blank" class="footer__social-link">
+                            <i class="ri-youtube-fill"></i>
                         </a>
-                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
-                            <i class="ri-twitter-fill"></i>
-                        </a>
-                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <a href="https://www.instagram.com/health.core_/" target="_blank" class="footer__social-link">
                             <i class="ri-instagram-line"></i>
-                        </a>    
+                        </a>
                     </ul>
-    
+
                     <span class="footer__copy">
-                        Developed By  <a href="https://kanhaashutech.com" target="_blank"><span style="color: rgb(255, 65, 65);" >KANHA-ASHU TECH</span></a> | All rights reserved | &#169; Copyright 2023 Healthcore Fitness 
+                        Developed By <a href="https://kanhaashutech.com" target="_blank"><span
+                                style="color: rgb(255, 65, 65);">KANHA-ASHU TECH</span></a> | All rights reserved |
+                        &#169; Copyright 2023 Healthcore Fitness
                     </span>
                 </div>
             </div>
@@ -543,7 +665,7 @@ Our goal is to empower you with the knowledge and support needed to make lasting
 
 
         <!--========== SCROLL UP ==========-->
-        <a href="#" class="scrollup" id="scroll-up"> 
+        <a href="#" class="scrollup" id="scroll-up">
             <i class="ri-arrow-up-line"></i>
         </a>
 
@@ -552,8 +674,9 @@ Our goal is to empower you with the knowledge and support needed to make lasting
 
         <!--=============== EMAIL JS ===============-->
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-        
+
         <!--=============== MAIN JS ===============-->
         <script src="assets/js/main.js"></script>
-    </body>
+</body>
+
 </html>
