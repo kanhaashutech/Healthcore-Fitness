@@ -591,7 +591,7 @@ img {
   margin-top: 1rem;
 }
 
-@media screen and (max-width:750px){
+@media screen and (min-width:237px)  and (max-width:750px){
     .plan__price{
       display: flex;
       flex-direction: column;
