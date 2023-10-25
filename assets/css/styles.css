@@ -697,6 +697,7 @@ img {
   column-gap: .5rem;
   align-items: center;
   font-size: var(--small-font-size);
+  font-weight: 600;
 }
 
 .pricing__item_program{
@@ -760,8 +761,13 @@ img {
   color: rgb(134, 134, 134);
   /* margin-left: 10px; */
   text-align: center;
+  text-decoration: underline;
 }
 
+/* .pricing__card .more_details_h4{
+  
+  border-bottom: 1px solid rgb(134, 134, 134);
+} */
 .pricing__card  #more_details:hover{
   color: rgb(212, 212, 212);
   /* transform: translate(5px 2px 3s); */
